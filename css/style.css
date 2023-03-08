@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+#mynavbar{
+    background-color: brown;
+}
+/* .nav-link{
+    background-color: blanchedalmond;
+} */
+#mynavbar li{
+    background-color: white;   
+    margin: 25px;
+    height: 35px;
+    width: 110px;
+    border-radius: 15px;    
+    
+}
+#mynavbar a{
+    color: brown;
+    font-weight: bold;    
+}
+#hero{
+    
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+}
+
+#about{
+    text-align: justify;   
+}
+h2{
+    color: brown;
+    text-align: center;
+}
