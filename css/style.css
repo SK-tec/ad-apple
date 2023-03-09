@@ -9,15 +9,19 @@ body{
 } */
 #mynavbar li{
     background-color: white;   
-    margin: 25px;
-    height: 35px;
+    margin: 30px;
+    height: 30px;
     width: 110px;
     border-radius: 15px;    
+    text-align: center;
+    align-items: center;
     
 }
 #mynavbar a{
     color: brown;
-    font-weight: bold;    
+    font-weight: bold;
+    vertical-align: middle; 
+    
 }
 #hero{
     
@@ -25,7 +29,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../images/background.png);
+    background: url(../images/background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,3 +44,14 @@ h2{
     color: brown;
     text-align: center;
 }
+footer{
+    background-color: indianred;
+}
+li{
+  color: white;
+  line-height: 1px;
+  
+}
+ul {
+    list-style-type: square;
+  }
