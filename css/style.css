@@ -22,6 +22,7 @@ body {
   text-align: center;
   align-items: center;
   font-size: large;
+  line-height: 1px;
 }
 #mynavbar a {
   color: #c21807;
@@ -90,11 +91,11 @@ footer {
   transform: translate(-50%, -50%);
   color: white;
 }
-li {
+#footer li {
   color: white;
   line-height: 1px;
 }
-ul {
+#footer ul {
   list-style-type: square;
 }
 
@@ -125,10 +126,45 @@ ul {
 #plans .card:hover {
   scale: 1.03;
 }
+.row2 {
+  border-radius: 60px;
+}
+.card-plan {
+  border-radius: 60px;
+  /* background-color: #f8f5f5; */
+  background: linear-gradient(#ddddeb, white, #9d9db1);
+  color: #7c2b23;
+}
 #plans a {
-  background-color: #dac4c4;
+  background-color: #ccccf5;
   color: navy;
 }
-#plans li {
-  background-color: beige;
+
+#plans ul {
+  list-style: none;
+  font-size: larger;
+}
+
+#plans ul li:before {
+  content: "✓";
+  padding: 5px;
+  font-size: larger;
+}
+.bi-facebook {
+  color: blue;
+  font-size: larger;
+}
+.bi-instagram {
+  color: orangered;
+  font-size: larger;
+}
+.bi-twitter {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  font-size: larger;
+}
+.bi-youtube {
+  color: red;
+  font-size: 30px;
 }
