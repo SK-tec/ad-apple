@@ -1,59 +1,128 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
+  font-family: "Times New Roman", serif;
 }
-#mynavbar{
-    background-color: brown;
+#mynavbar {
+  background-color: #c21807;
 }
-/* .nav-link{
-    background-color: blanchedalmond;
+
+#mynavbar li {
+  background-color: white;
+  margin-left: 32px;
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+}
+#mynavbar a {
+  color: #c21807;
+  font-weight: bold;
+}
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  color: #fff;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+/* #hero {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 } */
-#mynavbar li{
-    background-color: white;   
-    margin: 30px;
-    height: 30px;
-    width: 110px;
-    border-radius: 15px;    
-    text-align: center;
-    align-items: center;
-    
+
+#about {
+  text-align: justify;
 }
-#mynavbar a{
-    color: brown;
-    font-weight: bold;
-    vertical-align: middle; 
-    
+#about p {
+  font-size: larger;
+  line-height: 2;
 }
-#hero{
-    
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../images/background.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-   
+h2 {
+  color: #c21807;
+  text-align: center;
+}
+#contact-us .card {
+  background: none;
+}
+.form-control {
+  background-color: beige;
+}
+footer {
+  background-color: #9c1609;
+}
+#contact-us {
+  background-image: url(../images/contactbg.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#about{
-    text-align: justify;   
-}
-h2{
-    color: brown;
-    text-align: center;
+.contact {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-footer{
-    background-color: indianred;
+.text-over-img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
-li{
+li {
   color: white;
   line-height: 1px;
-  
 }
 ul {
-    list-style-type: square;
-  }
+  list-style-type: square;
+}
 
+.contact-card,
+.card-header {
+  border-color: burlywood;
+  border-radius: 30px;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 68%;
+  position: relative;
+  height: 0;
+  border-radius: 30px;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+/*Packages section starts*/
+#packages .card:hover {
+  scale: 1.03;
+}
+#packages a {
+  background-color: #dac4c4;
+  color: navy;
+}
+#packages li {
+  background-color: beige;
+}
