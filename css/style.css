@@ -1,5 +1,11 @@
+html,
 body {
-  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*background-color: antiquewhite;*/
+  background: linear-gradient(#ffe9e9, white, #fbfbfd);
   font-family: "Times New Roman", serif;
 }
 #mynavbar {
@@ -8,10 +14,10 @@ body {
 
 #mynavbar li {
   background-color: white;
-  margin-left: 32px;
+  margin-left: 30px;
   margin-top: 10px;
   height: 30px;
-  width: 150px;
+  width: 115px;
   border-radius: 15px;
   text-align: center;
   align-items: center;
@@ -116,13 +122,13 @@ ul {
   height: 500px;
 }
 /*Packages section starts*/
-#packages .card:hover {
+#plans .card:hover {
   scale: 1.03;
 }
-#packages a {
+#plans a {
   background-color: #dac4c4;
   color: navy;
 }
-#packages li {
+#plans li {
   background-color: beige;
 }
